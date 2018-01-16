@@ -8,7 +8,7 @@ export default function Slide3(props) {
 				background: props.color
 			}}>
   		<div>
-  			<p>I hope today is full of laughs, great food, and warm hearts. Thank you for so many special trips home and an amazing birthday 27th birthday. I miss you all the time and I can't wait to see you!</p>
+  			<p>I hope today is full of laughs, great food, and warm hearts. Thank you for so many special trips home and an amazing 27th birthday. I miss you all the time and I can't wait to see you!</p>
   			<p
   				style={{
   					marginTop: '0px',
