@@ -1,0 +1,23 @@
+@import 'components/reset';
+@import 'components/variables';
+
+.App {
+  @include center;
+  background: #263143;
+  width: 100%;
+  font-family: 'Concert One', cursive;
+  &>div {
+    touch-action: pan-y;
+    touch-action: pan-x;
+    height: 100%;
+    width: 100%;
+    & div {
+      @include center;
+    }
+  }
+}
+
+@import 'components/Slide1/slide1';
+@import 'components/Slide2/slide2';
+@import 'components/Slide3/slide3';
+@import 'components/Slide4/slide4';
